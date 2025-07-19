@@ -1,9 +1,9 @@
 # Microsoft Power Platform Parking Solution
-As part of Microsoft’s Power Up Challenge, I developed a comprehensive parking management solution for Contoso High School using Power Platform. The project features a Dataverse data model, a model-driven app for submitting parking requests, a tablet-friendly canvas app for logging inspections, a Power Automate flow to confirm requests via email, and a Power BI report to analyze parking trends and identify unauthorized usage. The solution demonstrates my expertise in app development, automation, and data visualization within the Power Platform ecosystem. Watch the full video walkthrough here: https://youtu.be/x3H_bk6jDF8
+As part of Microsoft’s Power Up Challenge, I developed a comprehensive parking management solution for Contoso High School using Power Platform. The project features a Dataverse data model, a model-driven app for submitting parking requests, a tablet-friendly canvas app for logging inspections, a Power Automate flow to confirm requests via email, and a Power BI report to analyze parking trends and identify unauthorized usage. The solution demonstrates my expertise in app development, automation, and data visualization within the Power Platform ecosystem. The project specification is included in this repository as a separate pdf file.
+Watch the full video walkthrough here: https://youtu.be/x3H_bk6jDF8
 
 # Quick Note:
 The Power BI report is included as separate .pbix file in repo that can be run in Power BI Desktop app.
-I also included the project specifications in the repo
 
 # Prerequisites
 Before importing and running this solution, ensure you have the following:
