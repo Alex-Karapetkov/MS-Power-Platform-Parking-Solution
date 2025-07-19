@@ -8,31 +8,31 @@ The Power BI report is included as separate .pbix file in repo that can be run i
 # Prerequisites
 Before importing and running this solution, ensure you have the following:
 
-A Microsoft Power Platform environment with appropriate permissions to import solutions, create apps, and run flows.
+- A Microsoft Power Platform environment with appropriate permissions to import solutions, create apps, and run flows.
 
-Access to the Microsoft Power Apps portal.
+- Access to the Microsoft Power Apps portal.
 
-Power BI Desktop installed to open the included .pbix report file.
+- Power BI Desktop installed to open the included .pbix report file.
 
 Required managed solutions pre-installed in the target environment:
 
-App Framework Infra Extensions (msdyn_AppFrameworkInfraExtensions), version 1.0.0.15 or higher.
+- App Framework Infra Extensions (msdyn_AppFrameworkInfraExtensions), version 1.0.0.15 or higher.
 
-App Module Assets (AppModuleWebResources), version 2.5 or higher.
+- App Module Assets (AppModuleWebResources), version 2.5 or higher.
 
 
 # Importing the Solution
-Download the unmanaged solution ZIP file from this repository.
+- Download the unmanaged solution ZIP file from this repository.
 
-Log into the Power Apps portal at https://make.powerapps.com.
+- Log into the Power Apps portal at https://make.powerapps.com.
 
-Navigate to Solutions and select Import solution.
+- Navigate to Solutions and select Import solution.
 
-Upload the downloaded solution ZIP file.
+- Upload the downloaded solution ZIP file.
 
-If the environment does not already have the required managed dependencies (App Framework Infra Extensions and App Module Assets), the import will fail. Please ensure these are installed before proceeding.
+- If the environment does not already have the required managed dependencies (App Framework Infra Extensions and App Module Assets), the import will fail. Please ensure these are installed before proceeding.
 
-Complete the import process.
+- Complete the import process.
 
 
 # How to Use the Solution
@@ -48,9 +48,9 @@ Power BI Report: Analyze parking trends and identify unauthorized usage. Open th
 # Dependencies and Notes
 The solution depends on the following managed solutions to function correctly:
 
-App Framework Infra Extensions (msdyn_AppFrameworkInfraExtensions) - provides essential framework components.
+- App Framework Infra Extensions (msdyn_AppFrameworkInfraExtensions) - provides essential framework components.
 
-App Module Assets (AppModuleWebResources) - supplies necessary web resources and assets.
+- App Module Assets (AppModuleWebResources) - supplies necessary web resources and assets.
 
 Failure to have these managed solutions installed prior to import will cause the solution import to fail.
 
